@@ -1,22 +1,22 @@
 class Cat:
     def __init__(self, name, age):
-        self.__name = name
-        self.__age = age
+        self.name = name
+        self.age = age
 
     def __str__(self):
-        msg = name + ' ' + str(self.age)
+        msg = self.name + ' ' + str(self.age)
 
     def getName(self):
-        return self.__name
+        return self.name
     
     def getAge(self):
-        return self.__age
+        return self.age
     
     def setName(self, name):
-        self.__name = name
+        self.name = name
 
     def setAge(self, age):
-        self.__age = age
+        self.age = age
 
 
 missy = Cat('Missy', 3)
